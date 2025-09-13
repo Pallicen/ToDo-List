@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(239, 205, 160);
+  display: flex;
+  justify-content: center;
+}
+
+#ToDoList {
+font-family: fantasy;
+text-align: center;
+}
+
+
+input {
+  width: 220px;
+  height: 25px;
+  margin-top: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 1px solid;
+  background-color: rgb(239, 205, 160);;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(182, 132, 89)
+}
+
+.bock {
+  
+  box-shadow: 4px 4px 10px grey;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+
+.rensa {
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  color: back;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+}
+
