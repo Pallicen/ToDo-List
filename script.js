@@ -9,7 +9,7 @@
         this.textContent = "";    
         input.value = "";                  
       } else {
-        this.textContent = "✔️";       
+        this.textContent = "✔️";    
       }
     });
   });
@@ -25,3 +25,18 @@
     });
     
   });
+
+  document.querySelector(".läggTill").addEventListener("click", function () {
+    const listrad = document.createElement('div');
+    listrad.classList.add('listrad');
+
+    const input = document.createElement('input');
+    input.classList.add('lista');
+
+    const button = document.createElement('button');
+    button.classList.add('bock');
+
+    listrad.append(input, button);
+
+    document.getElementById('rader').appendChild(listrad);
+  })
